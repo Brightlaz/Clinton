@@ -110,4 +110,8 @@
         font-size: 13px;
         line-height: 25px;
     }
+    section h2,
+    h2 {
+        font-size: 22px;
+    }
 }
