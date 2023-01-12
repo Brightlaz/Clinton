@@ -10,20 +10,21 @@
   nav {
     margin-left: 100px;
   }
-  #c-img img {
-    margin-left: 130px;
+  .intro {
+    margin-left: 70px;
+    margin-right: 150px;
   }
 }
 
 @media (max-width: 900px) {
-  #c-img img {
-    margin-left: 50px;
-  }
-  #c-img {
-    width: 260px;
-  }
   .col p {
     width: 300px;
+  }
+  .P-body h1 {
+    width: 80%;
+  }
+  .P-info .four {
+    grid-column: 2/2;
   }
 }
 
@@ -36,17 +37,13 @@
     margin-left: 40px;
     margin-right: 40px;
   }
-  header h1 {
-    font-size: 25px;
+  header h1,
+  h1 {
+    font-size: 30px;
     line-height: 48px;
   }
   header p {
     width: 100%;
-  }
-  #c-img {
-    grid-column: 1/3;
-    grid-row: 3;
-    width: 302px;
   }
   p {
     font-size: 14px;
@@ -65,15 +62,26 @@
     flex: 1 1 100%;
     max-width: 100%;
   }
-  footer {
-    width: 360px;
-  }
-  #button {
-    font-size: 20px;
-  }
   nav ul li {
     padding-right: 20px;
     font-size: 12px;
+  }
+  .intro {
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  .P-info {
+    row-gap: 100px;
+    margin-top: 90px;
+  }
+  .P-body h1 {
+    width: 100%;
+  }
+  .P-info .two {
+    grid-column: 1;
+  }
+  .P-info .four {
+    grid-column: 1;
   }
 }
 
