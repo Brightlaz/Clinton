@@ -14,6 +14,12 @@
     margin-left: 70px;
     margin-right: 150px;
   }
+  .d-details section p {
+    flex: 0 0 41.6%;
+  }
+  .screen img {
+    width: 512px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -25,6 +31,9 @@
   }
   .P-info .four {
     grid-column: 2/2;
+  }
+  .d-details section p {
+    flex: 0 0 37.7%;
   }
 }
 
@@ -38,7 +47,8 @@
     margin-right: 40px;
   }
   header h1,
-  h1 {
+  h1,
+  #Res h1 {
     font-size: 30px;
     line-height: 48px;
   }
@@ -82,6 +92,16 @@
   }
   .P-info .four {
     grid-column: 1;
+  }
+  .screen img {
+    width: 272px;
+  }
+  .d-details section p {
+    flex: 0 0 82%;
+  }
+  .d-details section img {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
