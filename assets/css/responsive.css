@@ -103,6 +103,9 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .Res-info {
+    width: 80%;
+  }
 }
 
 @media (max-width: 280px) {
