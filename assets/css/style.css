@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 
 body {
   margin: 0;
@@ -314,6 +315,66 @@ section .container {
   margin-bottom: 70px;
 }
 
-#home {
+.home {
   width: 65%;
+}
+
+#screen {
+  width: 82%;
+}
+
+#screen2 {
+  width: 40%;
+}
+
+footer {
+  padding: 38px 182px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  background-color: #f6fcfe;
+  grid-column: 1/3;
+}
+
+footer #clinton {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #clinton img {
+  width: 62px;
+}
+
+footer #clinton p:first-child {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #353738;
+}
+
+footer #clinton p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+footer .P-link p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: 24px;
+}
+
+footer .P-link div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .P-link img {
+  flex: 0 0 48.6%;
+  max-width: 48.6%;
 }

@@ -119,7 +119,9 @@
   .Res-info {
     width: 80%;
   }
-  #home {
+  .home,
+  #screen,
+  #screen2 {
     width: 80%;
   }
 }
