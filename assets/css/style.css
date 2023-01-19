@@ -50,10 +50,10 @@ h2 {
 }
 
 h3 {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 29px;
-  color: #454545;
+  color: #111012;
 }
 
 nav {
@@ -215,6 +215,39 @@ section .container {
   margin: 100px 0;
 }
 
+#Res h3 {
+  font-weight: 500;
+  color: #111012;
+  margin-top: 86px;
+}
+
+#Res p {
+  color: #090909;
+}
+
+#Res .d-details {
+  padding-left: 180px;
+  padding-right: 161px;
+}
+
+#Res section {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#Res .d-details section p {
+  border: transparent;
+  padding: 0 0;
+}
+
+#Res .d-details section:first-of-type {
+  margin-bottom: 0;
+}
+
+#Res h3 {
+  width: 100%;
+}
+
 .Res-info {
   width: 55%;
 }
@@ -270,4 +303,17 @@ section .container {
 
 .sub-text2 {
   margin-top: 200px;
+}
+
+.imp {
+  color: #454545;
+  font-weight: 700;
+}
+
+.gap {
+  margin-bottom: 70px;
+}
+
+#home {
+  width: 65%;
 }

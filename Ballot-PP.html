@@ -244,7 +244,7 @@
         <div class="sub-text2">
           <h3>Crafting Point of View - Problem Statements</h3>
           <p>After a proper user definition, highlighting their needs, and the insights we have come to know through our research, we came up with some actionable problem statements.</p>
-          <p style="color:#454545; font-weight: 700;">Problem Statements:</p>
+          <p class="imp">Problem Statements:</p>
           <ul>
             <li>Mark is a Mechanical student who needs an easy way to cast a vote for his choice candidate because the current voting process is stressful and time-consuming.</li>
             <li>Folake is a hair stylist who needs to exercise her civil rights because of the monetary reward she will get from bribery without considering the long-term effect of her decision.</li>
@@ -256,7 +256,7 @@
         <div class="sub-text2">
           <h3>Generating “How Might We” Questions</h3>
           <p>At this point, we started using our point-of-view problem statements by asking specific questions with “How Might We” to generate ideas for the coming phase.</p>
-          <p style="color:#454545; font-weight: 700;">Some How Might We Questions:</p>
+          <p class="imp">Some How Might We Questions:</p>
           <ul>
             <li>How might we ensure elections are not postponed due to violence, delays in opening poll centers, and malfunctioning card readers?</li>
             <li>How might we ensure safety of people and electoral materials during election?</li>
@@ -273,6 +273,94 @@
     </div>
     <div class="screen" id="Res">
       <h1>Ideation</h1>
+    </div>
+    <div class="d-details">
+        <div class="Res-info">
+            <h3>Generating Broad Set of Ideas</h3>
+            <p>We timed ourselves and came up with ideas that focused on the point-of-view problem statements. We stayed on the topic, deferred criticism, and aimed for quantity. We encouraged weird and wild ideas and built on each other’s ideas.</p>
+            <p>Using the <span class="imp">Post-It-Voting</span> ideation method to select ideas, we collected the best solutions by categorizing, refining, and narrowing down the ideas.</p>
+            <p class="imp">Some Possible Solutions:</p>
+            <ul>
+              <li>Create a platform where users can look up voting information before the election.</li>
+              <li>Create a product that can remind users of an upcoming election.</li>
+              <li>Create easy-to-use platform users can cast votes from anywhere they are and verify they are eligibility to vote.</li>
+              <li>Mounting security cameras in polling units will enable citizens to watch the ongoing election from anywhere and reduce election-related violence.</li>
+              <li>Build a credible platform where users can look up ongoing election results.</li>
+              <li>Create a platform that will educate citizens about elections, how to register for their voters’ cards, their rights to vote, and how to vote in every indigenous language.</li>
+              <li>Create a platform that will educate citizens about elections, how to register for their voters’ cards, their rights to vote, and how to vote.</li>
+              <li>Build a transparent platform that allows every citizen to vote once and ensure their vote is transmitted immediately.</li>
+              <li>Create a humanized platform where citizens can leave complaints and feedback and receive swift responses accordingly.</li>
+            </ul>
+        </div>
+        <div class="Res-info" style="margin-bottom: 150px;">
+          <h3>Idea Prioritization Matrix</h3>
+          <p>We prioritize and picked out feasible ideas based on value to our users and complexity in implementation using the <span class="imp">Value</span> vs <span class="imp">Complexity</span> matrix.</p>
+          <img src="assets/imgs/Group 7301.svg" alt="" style="margin-bottom: 100px;">
+          <p class="imp">Priortized Ideas:</p>
+          <ul>
+            <li>An easy-to-use platform users can cast votes from anywhere they are and verify their eligibility to vote.</li>
+            <li>A platform users can look up voting information before the election.</li>
+            <li>People with no smartphone can contact Ballot through call and text to request a door-to-door voting service.</li>
+          </ul>
+          <div class="sub-text2">
+            <h3>User flows</h3>
+            <p>I laid out the movement users’ will take through our platform, mapping out each step and use cases the user takes from the entry point right through to the final interaction after a defined functionality of the platform by the team.</p>
+          </div>
+        </div>
+        <img src="assets/imgs/chart.svg" alt="">
+    </div>
+    <div class="screen" id="Res">
+      <h1>Design</h1>
+    </div>
+    <div class="d-details">
+      <div class="Res-info">
+        <h3>Rough Sketches</h3>
+        <p>Starting out my visual design process, I write a list of the information that needs to go on a page, and quickly bring out my ideas through sketching which is faster and easier. The goal here for me was to get all my ideas out, so I stayed focused on quantity rather than quality. With the aid of my problem statements, I was able to sketch out my ideas rapidly and settled in for the ones I want to explore further in a digital wireframe.</p>
+      </div>
+      <img src="assets/imgs/sketches.svg" alt="">
+      <div class="Res-info sub-text2 gap">
+          <h3>Mid-Fi Wireframes</h3>
+          <p>Mid-fidelity wireframes were created with enough detail so that users can understand the basic features and navigation during usability testing.</p>
+      </div>
+      <img src="assets/imgs/wireframe.svg" class="gap" alt="">
+      <div class="Res-info gap">
+        <h3>User Testing</h3>
+        <p>The mid-fidelity wireframes with limited functionality and aesthetics were tested by 12 users (6 Disability users, 3 Adults, and 1 Young adult) through a moderated usability testing. We wanted to test the effectiveness of the layout and navigation, onboarding flow, landing page structure, vote casting flow, election stats flow, and election calendar flow.</p>
+      </div>
+    </div>
+    <div class="screen" id="Res">
+      <div class="d-details">
+        <h3>Key Findings</h3>
+        <section>
+          <p><b>100%</b> of users were able to cast their vote for their respective candidate.</p>
+          <p><b>90%</b> of users said the signup process was easy and simple to follow.</p>
+          <p><b>90%</b>90% of users understood how the election statistics work and how to lookup a specific year.</p>
+          <p><b>40%</b> of users asked how they can skip the voter registration process during the onboarding phase.</p>
+          <p><b>100%</b> of users liked that they are able to check election dates through the electoral calendar.</p>
+          <p><b>80%</b> of users were able to view election live results after casting their vote.</p>
+          <p><b>70%</b> of users said they were more interested in knowing the winner of an election before the statistics.</p>
+          <p><b>5%</b> of users asked about exporting their voters’ card for other online usage.</p>
+          <p><b>60%</b> of users living with a disability asked for assistance in navigating through the platform.  </p>
+        </section>
+        <h3>Changes Made</h3>
+        <section>
+          <p>A “Skip” button was added to the signup process so users can check election calendars and results without having to signup first.</p>
+          <p>“Assist button” was added across all screens for users to use voice command to navigate through the platform, and a chatbot to converse and carryout specific tasks.</p>
+          <p>“Winner of election” was added to the top of election statistics.</p>
+        </section>
+      </div>
+      
+    </div>
+    <div class="d-details">
+      <div class="Res-info">
+        <h3>UI Design</h3>
+        <p>After testing our early concepts with real users, I implemented the findings from the usability studies and then came up with more realistic designs that match the final designs in terms of details and functionality. I went on to design high fidelity screens for desktop and mobile.</p>
+        <div class="sub-text2">
+          <h3>Onboarding Screens</h3>
+          <p>We wanted to educate users about elections and what it entails briefly and concisely through our onboarding screens. It’s a way for us to create awareness of the importance of exercising civil rights.</p>
+        </div>
+      </div>
+      <img src="assets/imgs/home.svg" id="home" alt="">
     </div>
   </body>
 </html>

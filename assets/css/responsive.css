@@ -1,3 +1,8 @@
+@media (min-width: 601px) {
+  h3 {
+    font-size: 25px;
+  }
+}
 @media (max-width: 1024px) {
   header {
     margin-left: 100px;
@@ -6,6 +11,10 @@
   section {
     margin-left: 100px;
     margin-right: 100px;
+  }
+  #Res .d-details {
+    padding-left: 100px;
+    padding-right: 100px;
   }
   nav {
     margin-left: 100px;
@@ -63,6 +72,10 @@
     margin-left: 40px;
     margin-right: 40px;
   }
+  #Res .d-details {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   section h2,
   h2 {
     font-size: 25px;
@@ -106,6 +119,9 @@
   .Res-info {
     width: 80%;
   }
+  #home {
+    width: 80%;
+  }
 }
 
 @media (max-width: 280px) {
@@ -119,9 +135,12 @@
   .col p {
     width: 200px;
   }
-
   section {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  #Res .d-details {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
