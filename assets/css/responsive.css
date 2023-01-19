@@ -29,6 +29,9 @@
   .screen img {
     width: 512px;
   }
+  footer {
+    padding: 38px 88px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -42,7 +45,10 @@
     grid-column: 2/2;
   }
   .d-details section p {
-    flex: 0 0 37.7%;
+    flex: 0 0 47.7%;
+  }
+  footer {
+    grid-template-columns: 0.8fr 0.9fr;
   }
 }
 
@@ -123,6 +129,26 @@
   #screen,
   #screen2 {
     width: 80%;
+  }
+  footer {
+    grid-template-columns: 1fr;
+    padding: 38px 10%;
+  }
+  footer #clinton {
+    margin-bottom: 30px;
+  }
+  footer #clinton p {
+    font-size: 12px;
+  }
+  footer #clinton p:first-child {
+    font-size: 14px;
+  }
+  footer #clinton img {
+    width: 42px;
+  }
+  footer .P-link img {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
