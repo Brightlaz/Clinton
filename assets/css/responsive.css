@@ -78,6 +78,9 @@
     margin-left: 40px;
     margin-right: 40px;
   }
+  .d-details section {
+    justify-content: center;
+  }
   #Res .d-details {
     padding-left: 40px;
     padding-right: 40px;
