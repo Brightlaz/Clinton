@@ -388,3 +388,21 @@ footer .P-link img {
   flex: 0 0 48.6%;
   max-width: 48.6%;
 }
+
+.about {
+  align-items: flex-start;
+}
+
+.about img {
+  flex: 0 0 38%;
+  width: 38%;
+}
+
+.about div {
+  flex: 0 0 54%;
+  width: 54%;
+}
+
+.about div p {
+  margin: 0;
+}
