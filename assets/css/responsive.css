@@ -1,6 +1,20 @@
+@media (min-width: 1024px) {
+  #SP .P-info {
+    grid-template-columns: 1fr 0.4fr;
+    column-gap: 180px;
+  }
+}
 @media (min-width: 601px) {
   h3 {
     font-size: 25px;
+  }
+  #SP .P-info {
+    grid-template-columns: 1fr 0.6fr;
+    column-gap: 130px;
+  }
+  #s-key h2 {
+    font-size: 46px;
+    line-height: 56px;
   }
 }
 @media (max-width: 1024px) {
@@ -152,6 +166,11 @@
   footer .P-link img {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  /* Surrent project page */
+  #SP section div {
+    flex: 0 0 100%;
   }
 }
 

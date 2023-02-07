@@ -406,3 +406,35 @@ footer .P-link img {
 .about div p {
   margin: 0;
 }
+
+/* Surrnet Page */
+#SP .intro {
+  grid-template-columns: 1fr 0.37fr;
+}
+#SP .screen {
+  background-color: #fffaf3;
+  margin-top: 100px;
+}
+
+#SP section div {
+  flex: 0 0 45%;
+}
+
+#SP section p {
+  border: none !important;
+  padding: 0 !important;
+}
+
+#s-key h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+#s-key p {
+  color: #454545;
+}
+
+#s-key b {
+  font-weight: 500;
+  color: #111012;
+}
