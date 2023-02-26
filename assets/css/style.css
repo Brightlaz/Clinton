@@ -411,6 +411,7 @@ footer .P-link img {
 #SP .intro {
   grid-template-columns: 1fr 0.37fr;
 }
+
 #SP .screen {
   background-color: #fffaf3;
   margin-top: 100px;
@@ -418,6 +419,11 @@ footer .P-link img {
 
 #SP section div {
   flex: 0 0 45%;
+  margin-bottom: 50px;
+}
+
+section #secper {
+  margin-top: 83px;
 }
 
 #SP section p {
@@ -437,4 +443,23 @@ footer .P-link img {
 #s-key b {
   font-weight: 500;
   color: #111012;
+}
+
+#SP .per {
+  margin-bottom: 30px;
+}
+
+#SP .d-details section img {
+  max-width: 86.6%;
+}
+
+#s-key img {
+  margin-bottom: 0;
+}
+
+#thank {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+  padding: 94px;
 }

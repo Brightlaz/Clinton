@@ -4,45 +4,56 @@
     column-gap: 180px;
   }
 }
+
 @media (min-width: 601px) {
   h3 {
     font-size: 25px;
   }
+
   #SP .P-info {
     grid-template-columns: 1fr 0.6fr;
     column-gap: 130px;
   }
+
   #s-key h2 {
     font-size: 46px;
     line-height: 56px;
   }
 }
+
 @media (max-width: 1024px) {
   header {
     margin-left: 100px;
     margin-right: 100px;
   }
+
   section {
     margin-left: 100px;
     margin-right: 100px;
   }
+
   #Res .d-details {
     padding-left: 100px;
     padding-right: 100px;
   }
+
   nav {
     margin-left: 100px;
   }
+
   .intro {
     margin-left: 70px;
     margin-right: 150px;
   }
+
   .d-details section p {
     flex: 0 0 41.6%;
   }
+
   .screen img {
     width: 512px;
   }
+
   footer {
     padding: 38px 88px;
   }
@@ -52,15 +63,19 @@
   .col p {
     width: 300px;
   }
+
   .P-body h1 {
     width: 80%;
   }
+
   .P-info .four {
     grid-column: 2/2;
   }
+
   .d-details section p {
     flex: 0 0 47.7%;
   }
+
   footer {
     grid-template-columns: 0.8fr 0.9fr;
   }
@@ -70,99 +85,131 @@
   nav {
     margin-left: 40px;
   }
+
   header {
     grid-column: 1/3;
     margin-left: 40px;
     margin-right: 40px;
   }
+
   header h1,
   h1,
-  #Res h1 {
+  #Res h1,
+  #thank {
     font-size: 30px;
     line-height: 48px;
   }
+
   header p {
     width: 100%;
   }
+
   p {
     font-size: 14px;
     line-height: 25px;
   }
+
   section {
     margin-left: 40px;
     margin-right: 40px;
   }
+
   .d-details section {
     justify-content: center;
   }
+
   #Res .d-details {
     padding-left: 40px;
     padding-right: 40px;
   }
+
   section h2,
   h2 {
     font-size: 25px;
     line-height: 27px;
   }
+
   .col {
     flex: 1 1 100%;
     max-width: 100%;
   }
+
   nav ul li {
     padding-right: 20px;
     font-size: 12px;
   }
+
   .intro {
     margin-left: 20px;
     margin-right: 40px;
   }
+
   .P-info {
     row-gap: 100px;
     margin-top: 90px;
   }
+
   .P-body h1 {
     width: 100%;
   }
+
   .P-info .two {
     grid-column: 1;
   }
+
   .P-info .four {
     grid-column: 1;
   }
+
   .screen img {
     width: 272px;
   }
+
   .d-details section p {
     flex: 0 0 82%;
   }
-  .d-details section img {
+
+  .d-details section img,
+  #SP .d-details section img {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  #SP .per {
+    margin-bottom: 15px;
+  }
+
   .Res-info {
     width: 80%;
   }
+
   .home,
   #screen,
   #screen2 {
     width: 80%;
   }
+
   footer {
     grid-template-columns: 1fr;
     padding: 38px 10%;
   }
+
   footer #clinton {
     margin-bottom: 30px;
   }
+
   footer #clinton p {
     font-size: 12px;
   }
+
   footer #clinton p:first-child {
     font-size: 14px;
   }
+
   footer #clinton img {
     width: 42px;
   }
+
   footer .P-link img {
     flex: 0 0 100%;
     max-width: 100%;
@@ -172,23 +219,31 @@
   #SP section div {
     flex: 0 0 100%;
   }
+
+  section #secper {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 280px) {
   nav {
     margin-left: 20px;
   }
+
   header {
     width: 250px;
     margin-left: 20px;
   }
+
   .col p {
     width: 200px;
   }
+
   section {
     margin-left: 20px;
     margin-right: 20px;
   }
+
   #Res .d-details {
     padding-left: 20px;
     padding-right: 20px;
