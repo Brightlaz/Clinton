@@ -158,9 +158,10 @@ section .container {
 
 .float2 {
   position: absolute;
-  left: 32.6%;
+  left: 32%;
   top: 11%;
-  width: 34%;
+  width: 36%;
+  border-radius: 10px;
 }
 
 .lock {
@@ -411,13 +412,13 @@ footer .P-link p {
   margin-bottom: 24px;
 }
 
-footer .P-link div {
+footer .P-link #hold {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-footer .P-link img {
+footer .P-link #hold div {
   flex: 0 0 48.6%;
   max-width: 48.6%;
 }
@@ -550,6 +551,24 @@ section #secper {
   letter-spacing: 0px;
   text-align: left;
   color: #C90000;
+}
+
+#back {
+  position: absolute;
+  bottom: 69px;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #1D1D1D;
+}
+
+#back:hover {
+  text-decoration: none;
+}
+
+.locked {
+  cursor: pointer;
 }
 
 .fade-in {

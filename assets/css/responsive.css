@@ -210,7 +210,7 @@
     width: 42px;
   }
 
-  footer .P-link img {
+  footer .P-link #hold div {
     flex: 0 0 100%;
     max-width: 100%;
   }

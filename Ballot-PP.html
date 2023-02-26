@@ -397,12 +397,32 @@
       </div>
       <div class="P-link">
         <p>See more of my work:</p>
-        <div>
-          <img src="assets/imgs/S-Link.svg" alt="">
-          <img src="assets/imgs/C-Link.svg" alt="">
-          <img src="assets/imgs/HC-Link.svg" alt="">
+        <div id="hold">
+          <div><img src="assets/imgs/e-link.svg" alt="" class="locked" /></div>
+          <div>
+            <a href="Surrent-PP.html"
+              ><img src="assets/imgs/S-Link.svg" alt=""
+            /></a>
+          </div>
+          <div><img src="assets/imgs/c-link.svg" alt="" class="locked" /></div>
         </div>
       </div>
     </footer>
+    <div id="lock">
+      <img src="assets/imgs/passwordicon.svg" alt="" />
+      <h2>Sorry! This project requires a password to view</h2>
+      <form>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+        />
+        <p id="block"></p>
+        <div id="submit">Submit</div>
+      </form>
+      <div id="back">Back to home</div>
+    </div>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
