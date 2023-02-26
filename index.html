@@ -15,15 +15,16 @@
       <ul>
         <li id="active"><a href="index.html">Clinton Selekeowei</a></li>
         <li><a href="about.html">About Me</a></li>
-        <li>LinkedIn</li>
-        <li>Email</li>
+        <li>
+          <a href="https://www.linkedin.com/in/ismeclint" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="mailto:selekeoweiclinton13@gmail.com">Email</a></li>
       </ul>
     </nav>
     <header>
-      <h1>
-        👋 Hi! I'm Clinton, I create products that are both useful and desirable
-        to users, and profitable for businesses
-      </h1>
+      <h1>👋 Hi! I'm Clinton, I create profitable and user-centric products</h1>
       <p>
         I am a product designer who uses a user-centered design method to create
         digital products and services that have intuitive, effective, and
@@ -35,6 +36,17 @@
     </header>
     <section>
       <div class="container">
+        <div class="col locked">
+          <div class="img">
+            <img src="assets/imgs/eas.png" alt="" />
+            <img src="assets/imgs/Eazee.gif" alt="Creek" class="float2" />
+          </div>
+          <h2>
+            <div>Eazee</div>
+            <img src="assets/imgs/Lock.svg" alt="" class="lock" />
+          </h2>
+          <p>Home Automation UX Case Study</p>
+        </div>
         <div class="col">
           <a href="Surrent-PP.html">
             <div class="img">
@@ -53,22 +65,34 @@
             <p>E-Voting UX Case Study</p>
           </a>
         </div>
-        <div class="col">
+        <div class="col locked">
           <div class="img">
-            <img src="assets/imgs/creek.png" alt="Creek" />
+            <img src="assets/imgs/creekban.png" alt="Creek" />
+            <img src="assets/imgs/creek.gif" alt="Creek" class="float" />
           </div>
-          <h2>Creek</h2>
-          <p>Health UX Case Study</p>
-        </div>
-        <div class="col">
-          <div class="img">
-            <img src="assets/imgs/Home care.png" alt="" />
-          </div>
-          <h2>Home Care</h2>
+          <h2>
+            <div>Creek</div>
+            <img src="assets/imgs/Lock.svg" alt="" class="lock" />
+          </h2>
           <p>Health UX Case Study</p>
         </div>
       </div>
       <!-- <div id="button">View More Projects</div> -->
     </section>
+    <div id="lock">
+      <img src="assets/imgs/passwordicon.svg" alt="" />
+      <h2>Sorry! This project requires a password to view</h2>
+      <form>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+        />
+        <p id="block"></p>
+        <div id="submit">Submit</div>
+      </form>
+    </div>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>

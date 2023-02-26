@@ -223,11 +223,25 @@
   section #secper {
     margin-top: 0px;
   }
+
+  #lock form {
+    width: 228px;
+  }
+
+  #lock h2 {
+    font-size: 17px;
+    line-height: 24px;
+    width: 228px;
+  }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 320px) {
   nav {
     margin-left: 20px;
+  }
+
+  nav ul li {
+    padding-right: 10px;
   }
 
   header {
